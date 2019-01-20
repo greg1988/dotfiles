@@ -1,5 +1,6 @@
 # exclude everything
 /editors/vim/bundle/*
+/editors/vim/.netrwhist
 
 # exception to the rule
 !/editors/vim/bundle/.gitkeep 
