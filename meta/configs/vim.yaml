@@ -1,0 +1,4 @@
+- link:
+    ~/.vim:                  editors/vim
+    ~/.vimrc:                editors/vim/vimrc
+

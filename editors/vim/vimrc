@@ -1,0 +1,10 @@
+" Define our mapleader
+:let mapleader = ","
+
+" Easy access to this file and easy sourcing
+map <leader>vm :find $MYVIMRC<CR>
+map <leader>s :source $MYVIMRC<CR>
+
+set nocompatible
+
+syntax on
