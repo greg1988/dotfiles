@@ -25,3 +25,8 @@ plugins=(
 
 # Note sourcing oh-my-zsh must be done last
 source $ZSH/oh-my-zsh.sh
+
+
+
+# ======================ALIASES=======================
+alias lag="ls -la | grep"
