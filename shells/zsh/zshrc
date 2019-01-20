@@ -1,8 +1,13 @@
+# Setup base paths
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/greg/.oh-my-zsh"
+
+export PATH=~/dev/phpcs/vendor/bin:$PATH
 
 # Set the prompt theme (depends no oh-my-zsh)
 ZSH_THEME="robbyrussell"
