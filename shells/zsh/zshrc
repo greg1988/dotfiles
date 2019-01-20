@@ -1,0 +1,22 @@
+# Preferred editor for local and remote sessions
+export EDITOR='vim'
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/greg/.oh-my-zsh"
+
+# Set the prompt theme (depends no oh-my-zsh)
+ZSH_THEME="robbyrussell"
+
+# Base16 Shell
+# @todo-greg only run when base16-shell is preset
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+          eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+plugins=(
+	git
+)
+
+# Note sourcing oh-my-zsh must be done last
+source $ZSH/oh-my-zsh.sh
