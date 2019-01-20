@@ -9,12 +9,17 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 " @todo-greg automate setup of silver searcher? https://github.com/ggreer/the_silver_searcher#installing
 Plugin 'rking/ag.vim'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 
 
 " =============================== Plugin configuration ====================
 
+
+" Color scheme config
+let base16colorspace=256
+colorscheme base16-default-dark
 
 " The Silver Searcher
 if executable('ag')
