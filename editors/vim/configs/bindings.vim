@@ -7,5 +7,8 @@ nnoremap <c-h> <c-w><c-h>
 " Delete all open buffers
 nnoremap <leader>bd :bufdo bd<enter>
 
+" Close vim
+nnoremap <leader>qq :q<enter>
+
 " Turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
