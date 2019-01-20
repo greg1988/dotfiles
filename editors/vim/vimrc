@@ -8,3 +8,7 @@ map <leader>s :source $MYVIMRC<CR>
 set nocompatible
 
 syntax on
+
+source ~/.vim/configs/plugins.vim
+
+filetype plugin indent on

@@ -1,0 +1,5 @@
+# exclude everything
+/editors/vim/bundle/*
+
+# exception to the rule
+!/editors/vim/bundle/.gitkeep 
