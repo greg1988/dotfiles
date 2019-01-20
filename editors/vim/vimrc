@@ -9,6 +9,7 @@ set nocompatible
 
 syntax on
 
+source ~/.vim/configs/base.vim
 source ~/.vim/configs/plugins.vim
 
 filetype plugin indent on
