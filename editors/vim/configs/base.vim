@@ -13,6 +13,7 @@ set splitbelow " open new vertical split to the bottom
 set nowrap     " no wordwrap
 set tabstop=4  " cannot stand too much padding
 set shiftwidth=4
+set showcmd    " show the current command as it is being built
 
 " --- Searching ---
 set path=$PWD/**
