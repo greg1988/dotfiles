@@ -11,5 +11,6 @@ syntax on
 
 source ~/.vim/configs/base.vim
 source ~/.vim/configs/plugins.vim
+source ~/.vim/configs/bindings.vim
 
 filetype plugin indent on
