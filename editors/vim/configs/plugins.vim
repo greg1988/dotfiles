@@ -31,4 +31,7 @@ if executable('ag')
 
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
+
+   " Search for the highlighted word
+  vnoremap <leader>G "hy:Ag "<C-r>h"<CR>
 endif
