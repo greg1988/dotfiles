@@ -2,6 +2,9 @@
 set exrc
 set secure
 
+" Centralize vim swapfiles
+set directory=~/.vim/swap,.
+
 " --- UI Config ---
 set number     " show current line number
 set rnu        " show relative line numbers
