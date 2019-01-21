@@ -18,6 +18,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'SirVer/ultisnips'
 Plugin 'vim-vdebug/vdebug'
+Plugin 'idanarye/vim-merginal'
 
 
 call vundle#end()
