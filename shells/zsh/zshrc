@@ -46,4 +46,4 @@ alias ctags="`brew --prefix`/bin/ctags"
 # Helper for generating php tags
 alias phptags='ctags -R --exclude=.git --exclude=log --exclude=.js --languages=php'
 
-
+alias txk='tmux kill-server;'
