@@ -10,6 +10,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " @todo-greg automate setup of silver searcher? https://github.com/ggreer/the_silver_searcher#installing
 Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
+Plugin 'vimwiki/vimwiki'
 
 call vundle#end()
 
