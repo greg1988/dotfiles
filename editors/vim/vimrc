@@ -14,7 +14,7 @@ source ~/.vim/configs/plugins.vim
 source ~/.vim/configs/bindings.vim
 
 " Look for local vim config options for this machine
-if filereadable("~/.vimrc.local")
+if filereadable(expand("~/.vimrc.local"))
 	source ~/.vimrc.local
 endif
 
