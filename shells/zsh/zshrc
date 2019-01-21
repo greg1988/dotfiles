@@ -24,8 +24,11 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 
 plugins=(
 	git
+	# Warp directory
 	wd
 	colored-man-pages
+	# Fish like text that appears as you type
+	zsh-autosuggestions
 )
 
 # Note sourcing oh-my-zsh must be done last
