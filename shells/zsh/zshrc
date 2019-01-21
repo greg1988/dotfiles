@@ -25,6 +25,7 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 plugins=(
 	git
 	wd
+	colored-man-pages
 )
 
 # Note sourcing oh-my-zsh must be done last
