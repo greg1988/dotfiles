@@ -19,6 +19,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'SirVer/ultisnips'
 Plugin 'vim-vdebug/vdebug'
 Plugin 'idanarye/vim-merginal'
+Plugin 'easymotion/vim-easymotion'
 
 
 call vundle#end()
