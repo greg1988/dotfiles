@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'terryma/vim-smooth-scroll'
 Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
