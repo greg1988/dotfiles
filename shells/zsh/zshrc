@@ -29,6 +29,7 @@ plugins=(
 	colored-man-pages
 	# Fish like text that appears as you type
 	zsh-autosuggestions
+	tmuxinator
 )
 
 # Note sourcing oh-my-zsh must be done last
