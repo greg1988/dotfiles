@@ -17,6 +17,7 @@ Plugin 'terryma/vim-smooth-scroll'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'SirVer/ultisnips'
+Plugin 'vim-vdebug/vdebug'
 
 
 call vundle#end()
@@ -62,3 +63,9 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsSnippetsDir="~/.vim/ultisnips"
 let g:UltiSnipsSnippetDirectories=["ultisnips"]
+
+" Debuggin options
+" Setup config defaults for more info see :help VdebugOptionsList
+let g:vdebug_options = {}
+" Only break at breakpoints
+let g:vdebug_options.break_on_open=0
