@@ -1,6 +1,9 @@
 # Setup base paths
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Include phpcs setup
+export PATH=~/dev/phpcs/vendor/bin:$PATH
+
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
@@ -31,3 +34,11 @@ source $ZSH/oh-my-zsh.sh
 
 # ======================ALIASES=======================
 alias lag="ls -la | grep"
+
+# Use brew version of ctags
+alias ctags="`brew --prefix`/bin/ctags"
+
+# Helper for generating php tags
+alias phptags='ctags -R --exclude=.git --exclude=log --exclude=.js --languages=php'
+
+
