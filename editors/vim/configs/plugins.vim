@@ -11,6 +11,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'vimwiki/vimwiki'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 
@@ -36,3 +38,9 @@ if executable('ag')
    " Search for the highlighted word
   vnoremap <leader>G "hy:Ag "<C-r>h"<CR>
 endif
+
+" ========================= Airline Config ==============================
+" Displays buffer information
+let g:airline#extensions#tabline#enabled = 1
+" Disable whitespace checks to keep bar clean
+let g:airline#extensions#whitespace#enabled = 0
