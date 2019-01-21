@@ -1,5 +1,5 @@
 " Define our mapleader
-:let mapleader = ","
+:let mapleader = "\<Space>"
 
 " Easy access to this file and easy sourcing
 map <leader>vm :find $MYVIMRC<CR>

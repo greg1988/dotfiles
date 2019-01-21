@@ -11,4 +11,4 @@ nnoremap <leader>bd :bufdo bd<enter>
 nnoremap <leader>qq :q<enter>
 
 " Turn off search highlight
-nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>h :nohlsearch<CR>
