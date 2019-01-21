@@ -13,4 +13,9 @@ source ~/.vim/configs/base.vim
 source ~/.vim/configs/plugins.vim
 source ~/.vim/configs/bindings.vim
 
+" Look for local vim config options for this machine
+if filereadable("~/.vimrc.local")
+	source ~/.vimrc.local
+endif
+
 filetype plugin indent on
