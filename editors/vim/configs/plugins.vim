@@ -13,6 +13,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'vimwiki/vimwiki'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'terryma/vim-smooth-scroll'
 
 call vundle#end()
 
@@ -44,3 +45,9 @@ endif
 let g:airline#extensions#tabline#enabled = 1
 " Disable whitespace checks to keep bar clean
 let g:airline#extensions#whitespace#enabled = 0
+
+" Shortcuts for smooth scroll (Distance, Duration, Speed)
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
