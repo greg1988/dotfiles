@@ -1,0 +1,16 @@
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = Greg Steffensen
+	email = greg@pixieset.com
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	# Cleanup any branches that have been merged into master
+	clean-merged = !git branch --merged master | egrep -v \"(^\\*|master)\" | xargs git branch -d
+
+	commit-log = !git --no-pager  log -n 20 --pretty=format:%h%x09%an%x09%ad%x09%s --date=short --no-merges
