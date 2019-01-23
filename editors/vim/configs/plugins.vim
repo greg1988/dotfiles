@@ -20,6 +20,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'vim-vdebug/vdebug'
 Plugin 'idanarye/vim-merginal'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'blueyed/vim-diminactive'
 
 
 call vundle#end()
