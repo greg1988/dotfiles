@@ -9,8 +9,20 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[color]
+    branch = true
+    diff = true
+    grep = true
+    pager = true
+    status = true
+    ui = true
 [alias]
 	# Cleanup any branches that have been merged into master
 	clean-merged = !git branch --merged master | egrep -v \"(^\\*|master)\" | xargs git branch -d
 
 	commit-log = !git --no-pager  log -n 20 --pretty=format:%h%x09%an%x09%ad%x09%s --date=short --no-merges
+	
+	graph = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+
+[init]
+	templatedir = ~/.git_template
