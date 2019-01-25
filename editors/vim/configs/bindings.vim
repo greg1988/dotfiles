@@ -12,3 +12,7 @@ nnoremap <leader>qq :q<enter>
 
 " Turn off search highlight
 nnoremap <leader>h :nohlsearch<CR>
+
+" ----------- Plugin Bindings ---------
+" T for opening taglist sidebar
+nnoremap <leader>t :Tlist<CR>

@@ -1,4 +1,3 @@
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 
@@ -21,7 +20,8 @@ Plugin 'vim-vdebug/vdebug'
 Plugin 'idanarye/vim-merginal'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'blueyed/vim-diminactive'
-
+Plugin 'airblade/vim-rooter'
+Plugin 'vim-scripts/taglist.vim'
 
 call vundle#end()
 
@@ -73,3 +73,6 @@ let g:UltiSnipsSnippetDirectories=["ultisnips"]
 let g:vdebug_options = {}
 " Only break at breakpoints
 let g:vdebug_options.break_on_open=0
+
+" Only list functions in TAGLIST
+let tlist_php_settings='php;f:function'
